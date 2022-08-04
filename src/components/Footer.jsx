@@ -102,7 +102,7 @@ const Footer = () => {
       </div>
 
       <footer className="bg-black text-white flex   justify-evenly p-8 w-full overflow-hidden">
-        <div>
+        <div className="flex flex-col items-center justify-between">
           <div>
             <img src={ovenswap} alt="" />
           </div>
